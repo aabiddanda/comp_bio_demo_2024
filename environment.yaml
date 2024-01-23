@@ -1,0 +1,13 @@
+name: compbio_demo 
+channels:
+  - defaults
+  - conda-forge
+  - bioconda
+dependencies:
+  - git
+  - numpy
+  - matplotlib
+  - scipy
+  - pip
+  - pip:
+    - tqdm
